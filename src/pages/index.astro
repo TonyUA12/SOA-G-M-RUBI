@@ -5,43 +5,47 @@ import Card from '../components/Card.astro';
 
 <Layout title="G&M RUBI ">
 	<main>
-		<header class="py-1 px-10 flex items-center fixed top-0 w-full justify-between z-20 bg-gray-50 bg-opacity-10 backdrop-filter backdrop-blur-lg">
+		<header class="py-1 px-10 flex items-center fixed top-0 w-full justify-between z-20 bg-slate-300">
 			<div>
 				<img src="" alt="LOGO">
 			</div>
 
-			<div class="block">
+			<div class="block ">
 
-				<div class="flex gap-2 [&>div>h2]:text-sm">
+				<div class="flex gap-7 [&>div>h2]:text-sm [&>div>h2]:font-bold [&>div>h2>span]:font-normal [&>div]:flex [&>div]:items-center [&>div]:rounded-xl mb-3 mt-3">
 
-					<div class="flex">
+					<div class="px-1 text-white" style="background-color: #8E6D64;">
 						<h2>BUSCA LICITACIONES
 							<br> <span class="text-xs">CON NOSOTROS</span>
 						</h2>
 
 						<div>
 
+							<img class="h-16" src="../../public/img/encabezado/opc-lic.svg" alt="">
+
 						</div>
 
 					</div>
 
-					<div>
-						<h2>PUBLICA TU <br> INMUEBLE</h2>
+					<div class="p-1" style="background-color: #ffff;">
+						<h2>PUBLICA TU <br> PROPIEDAD <br> <span class="text-xs" >EN NUESTRA WEB</span> </h2>
+
+									
+						<img class="h-16" src="../../public/img/encabezado/casa.svg" alt="">
 					</div>
 
-					<div>
-						<h2>VENDE TU <br> INMUEBLE</h2>
-					</div>
+					<div class="p-1" style="background-color: #3598DB;">
+						<h2>VENDE TU <br> INMUBLE <br> <span class="text-xs" >AQUI</span> </h2>
 
-					<div>
-						<h2>PUBLICA TU <br> PROPIEDAD <br> EN NUESTRA WEB</h2>
+									
+						<img class="h-16" src="../../public/img/encabezado/venta.jpg" alt="">
 					</div>
 
 
 				</div>
 
-				<nav>
-					<ul class="flex space-x-4 text-sm [&>li>a]:font-extrabold">
+				<nav class="mb-3">
+					<ul class="flex space-x-4 text-xl gap-3 [&>li>a]:font-extrabold">
 						<li><a href="">INICIO</a></li>
 						<li><a href="">SERVICIO</a></li>
 	
